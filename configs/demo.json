@@ -1,0 +1,8 @@
+{
+  "grid": {"width": 10, "height": 8, "n_obstacles": 10},
+  "targets": {"n": 3, "values": [3.0, 2.0, 1.0]},
+  "episode": {"max_steps": 30, "intercept_reward": 5.0},
+  "attacker": {"speed": 1},
+  "monte_carlo": {"n_episodes": 400, "seed": 7},
+  "voi": {"p_obs_values": [0.0, 0.2, 0.4, 0.6, 0.8, 1.0], "n_episodes": 200}
+}

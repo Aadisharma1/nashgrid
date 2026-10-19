@@ -1,0 +1,20 @@
+{
+  "name": "nashgrid",
+  "description": "Game-theoretic grid security simulator: defender vs attacker strategies, zero-sum matrix solving, Monte Carlo evaluation, Value of Information",
+  "language": "python",
+  "checks": [
+    {
+      "name": "unit_tests",
+      "cmd": "python -m pytest tests -q",
+      "timeout_sec": 900
+    },
+    {
+      "name": "smoke_test",
+      "cmd": "python -m nashgrid --demo",
+      "timeout_sec": 600
+    }
+  ],
+  "docker": {
+    "enabled": true
+  }
+}
